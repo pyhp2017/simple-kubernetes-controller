@@ -1,0 +1,10 @@
+apiVersion: operators.pyhp2017.github.io/v1
+kind: Application
+metadata:
+  name: nginxtest
+  namespace: ahmad
+spec:
+  image: nginx
+  tag: latest
+  port: 80
+  replicas: 3
